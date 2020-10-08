@@ -1,0 +1,17 @@
+{
+  "name": "app-contador",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@babel/plugin-proposal-object-rest-spread": "^7.9.0"
+  },
+  "scripts": {
+    "dev": "babel ./src/main.js -o ./public/bundle.js -w"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.9.0",
+    "@babel/preset-env": "^7.9.5"
+  }
+}

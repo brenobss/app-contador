@@ -1,0 +1,14 @@
+/* O código abaixo faz o babel entender o ambiente em que o código
+*está rodando e traduz, se necessário, para o ES6
+*/
+/* COMO CONFIGURAR O BABEL 
+Com o yarn, node e npm instalados, dê o comando "yarn init" no terminal, dentro da pasta
+Depois "yarn add @babel/cli";
+Em seguida "yarn add @babel/preset-env";
+Por fim "yarn add @babel/core"
+*/
+
+{
+    "presets": ["@babel/preset-env"],
+    "plugins": ["@babel/plugin-proposal-object-rest-spread"]
+}

@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+</head>
+
+<body onload="newRelogio(); newData()" class="img-fluid">
+    <div class="modal fade" id="modalExemplo" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel"></h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body" id="modalBody">
+
+                </div>
+
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-dismiss="modal" id="btnModalExit"
+                        onclick="window.location.reload();"></button>
+                    <button type="button" class="btn btn-success" data-dismiss="modal" id="btnModalOk"></button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-8">
+                <div class="inicio">
+
+                </div>
+            </div>
+        </div>
+        <div class="row" style="padding-bottom: 300px;">
+
+            <div class="col-4">
+
+                <div class="evento">
+
+                    <h1 class="colEvent">Evento</h1>
+                    <form name="form_evento" id="formId">
+                        <input type="text" name="descricao" id="event" class="form-control"
+                            placeholder="Digite aqui o evento"><br>
+                        <input type="text" name="datadescricao" id="date" class="form-control" placeholder="DD/MM/AAAA">
+                        <br>
+                        <input type="text" name="timedescricao" id="hour" class="form-control" placeholder="HH:MM:SS">
+                        <h6 class="form-group">(Opcional)</h6s>
+                            <br class="form-group">
+                            <button type="button" class="btn bnt-lg" data-toggle="modal" data-target="#modalExemplo"
+                                name="botaoiniciar" onclick="recoveryDatas()">Iniciar</button>
+                    </form>
+
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="clock">
+                    <h1 class="colClock">Clock</h1>
+                    <form name="form_data">
+                        <input type="text" name="data" class="calendario">
+                    </form>
+                    <form name="form_relogio">
+                        <input type="text" name="hora" class="horario">
+                    </form>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="temporizador">
+                    <h1 id="tittleCol" class="colTemp">Temporizador</h1>
+                    <form name="form_temporizadorD">
+                        <input type="text" name="temporizadorD" class="inputTemporizador" id="idTemporizadorDia">
+                    </form>
+                    <form name="form_temporizadorH">
+                        <input type="text" name="temporizadorH" class="hourTemporizador" id="idTemporizadorHour">
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-4">
+            </div>
+            <div class="col-4">
+                <div class="instrucoes">
+                    <h1>Instruções de Uso</h1>
+                </div>
+            </div>
+            <div class="col-4">
+            </div>
+
+        </div>
+
+        <div class="row">
+                <div class="rodape">
+                    <h4>Instagram do Criador: brenobarreto__</h4>
+                </div>
+        </div>
+        <footer>
+            <script src="js/jquery.js"></script>
+            <script src="js/bootstrap.bundle.min.js"></script>
+            <script src="bundle.js"></script>
+        </footer>
+</body>
+
+</html>

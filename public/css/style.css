@@ -1,0 +1,128 @@
+body{
+    background-color: bisque;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.inicio{
+    height: 100px;
+    text-align: center;
+}
+.temporizador{
+    text-align: center;
+    height: 350px;
+    border-top-width: 10px;
+    border-top-style: solid;
+    border-left-width: 10px;
+    border-left-style: solid;
+    border-bottom-width: 10px;
+    border-bottom-style: solid;
+    border-right-width: 10px;
+    border-right-style: solid;
+    border-color: midnightblue;
+}
+.inputTemporizador{
+    background-color : Black; 
+    color : White; 
+    font-size : 20pt; 
+    font-family : Verdana, Arial, Helvetica; 
+    text-align : center;
+}
+.hourTemporizador{
+    background-color : Black; 
+    color : White; 
+    font-size : 20pt; 
+    font-family : Verdana, Arial, Helvetica; 
+    text-align : center;
+}
+.colTemp{
+    border-bottom-width: 10px;
+    border-bottom-style: solid;
+    border-color: midnightblue;
+}
+.colClock{
+    border-bottom-width: 10px;
+    border-bottom-style: solid;
+    border-color: midnightblue;
+}
+.colEvent{
+    border-bottom-width: 10px;
+    border-bottom-style: solid;
+    border-color: midnightblue;
+}
+.clock{
+    height: 350px;
+    text-align: center;
+    border-top-width: 10px;
+    border-top-style: solid;
+    border-left-width: 10px;
+    border-left-style: solid;
+    border-bottom-width: 10px;
+    border-bottom-style: solid;
+    border-right-width: 10px;
+    border-right-style: solid;
+    border-color: midnightblue;
+}
+.evento{
+    text-align: center;
+    height: 350px;
+    border-color: midnightblue;
+    border-top-width: 10px;
+    border-top-style: solid;
+    border-left-width: 10px;
+    border-left-style: solid;
+    border-bottom-width: 10px;
+    border-bottom-style: solid;
+    border-right-width: 10px;
+    border-right-style: solid;
+    
+}
+.instrucoes{
+    text-align: center;
+    height: 350px;
+    margin-left: auto;
+    align-items: center;
+    border-color: midnightblue;
+    border-top-width: 10px;
+    border-top-style: solid;
+    border-left-width: 10px;
+    border-left-style: solid;
+    border-bottom-width: 10px;
+    border-bottom-style: solid;
+    border-right-width: 10px;
+    border-right-style: solid;
+
+}
+.horario{
+    background-color : Black; 
+    color : White; 
+    font-size : 17pt; 
+    font-family : Verdana, Arial, Helvetica; 
+    text-align : center;
+}
+.calendario{
+    background-color : Black;
+    color : White; 
+    font-family : Verdana, Arial, Helvetica; 
+    font-size : 17pt; 
+    text-align : center;
+    float: none;
+}
+
+
+
+
+
+
+
+
+
+
+.rodape{
+    height: 100px;
+    text-align: center;
+    background-color: midnightblue;
+    color: mintcream;
+    margin-top: 100px;
+    bottom:0;
+    width:100%;
+}
